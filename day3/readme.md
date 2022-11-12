@@ -36,3 +36,7 @@ Tham khảo thêm:
 
 - HTML là gì?
   Tham khảo ngay [tại đây](facebook.com)
+
+## Hình minh họa
+
+![ảnh giáng sinh](./pnvn2010.jpg)

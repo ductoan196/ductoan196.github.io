@@ -1,4 +1,5 @@
 /* font-family: 'Roboto', sans-serif; */
+
 *{
     margin: 0;
     padding: 0;
@@ -8,11 +9,27 @@
 body{
     font-family: 'Roboto', sans-serif;
     background-color: #ced9ea;
+
 }
+
+/* Style section khóa học */
+.container{
+    width: 1320px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col{
+    flex-basis: 25%;
+}
+ /* Style thẻ card  */
 .card{
-    width: 300px;
     background-color: #fff;
     box-shadow: 0 2px 4px #ababab;
+    margin: 0 15px;
+    margin-bottom: 30px;
 }
 
 .image{
@@ -47,49 +64,48 @@ body{
     margin-left: 4px;
 }
 
-/* body {
-    font-family: "Roboto", sans-serif;
-    background-color: #ced9ea;
+/* Style section footer */
+
+#footer{
+    background-color: #30598c;
+    color: white;
+    padding: 30px 0;
 }
 
-.card {
-    width: 320px;
-    background-color: #fff;
-  border: 1px solid black;
-  
+a{
+    text-decoration: none;
+    color: white;
+}
+#footer h5{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.6px;
+    margin-top: 0;
+    margin-bottom: 8px;
 }
 
-.image {
-    height: 220px;
-}
-
-.image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.content {
-    padding: 15px;
-}
-
-.content h3 {
-    color: #464646;
-    font-size: 19px;
-    font-weight: 400;
-}
-
-.content p {
-    color: #757575;
+#footer li{
     font-size: 14px;
-    font-weight: 100;
+    font-weight: 400;
+    line-height: 35px;
+}
+#footer .col{
+    padding-left: 15px;
+}
+.ctfooter i{
+    font-size: 32px;
 }
 
-.content p span {
-    color: #ffd600;
+ul {
+    list-style: none;
+    font-weight: 400;
+    font-size: 14px;
 }
-.info{
-  display: flex;
-  justify-content: space-between;
-  padding-top: 10px;
-} */
+ul.social-media{
+    display: flex;
+    justify-content: flex-start;
+}
+.social-media .youtube{
+    margin: 0 16px;
+}

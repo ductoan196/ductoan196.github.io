@@ -20,16 +20,18 @@ body{
 .row{
     display: flex;
     flex-wrap: wrap;
+    padding: 20px 0;
 }
 .col{
     flex-basis: 25%;
+    padding: 1rem 1rem;
 }
  /* Style thẻ card  */
 .card{
+    height: 100%;
     background-color: #fff;
     box-shadow: 0 2px 4px #ababab;
-    margin: 0 15px;
-    margin-bottom: 30px;
+    /* margin: 15px; */
 }
 
 .image{

@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.header{
+    background-color: #30598c;
+    height: 60px;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+    padding: 0 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img {
+    height: 37px;
+    object-fit: cover;
+    width: 100px;
+}
+
+.sidebar{
+    display: flex;
+    direction: row;
+    align-items: center;
+}
+
+.menu > ul{
+ display: flex;
+}
+
+.menu-item{
+    color: #fff;
+    font-size: .95rem;
+    font-weight: 400;
+    margin-right: 24px;
+
+    position: relative;
+
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item span{
+    margin-left: 5px;
+}
+
+.sub-menu{
+    position: absolute;
+
+    width: 200px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+
+    display: none;
+    flex-direction: column;
+
+    right: 0;
+    top: 100%;
+}
+
+.menu-item:hover .sub-menu{
+    display: flex;
+}
+
+.sub-menu-item{
+    font-size: 14px;
+    text-align: center;
+    padding: 1rem;
+    color: black;
+
+
+}
+
+.sub-menu-item:hover{
+    background-color: #c4c4c4;
+    color: #fff;
+}
+.avatar img{
+        border-radius: 50%;
+        height: 30px;
+        object-fit: cover;
+        width: 30px;
+    }
+
+.cart{
+    color: #fff;
+    padding-right: 15px;
+}
+.cart-icon{
+    position: relative;
+}
+.cart-count{
+    background-color: #26a69a;
+
+    display: inline-block;
+    padding: 1px 4px;
+    border-radius: 3px;
+    font-size: 14px;
+    
+    position:absolute;
+    bottom: 8px;
+    size: 0.5rem;
+
+}

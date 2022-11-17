@@ -1,22 +1,100 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    font-family: 'Roboto', sans-serif;
-
+img {
+    width: 100%;
 }
 
-img{
-    max-width: 100%;
-}
-
-ul{
+ul {
     list-style-type: none;
 }
 
-h3{
-    padding: 30px 0;
+body {
+    font-family: 'Roboto-Regular', sans-serif;
 }
+
+.menu, .sub-menu1, .sub-menu2{
+    width: 200px;
+    height: 344px;
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 25%);
+
+    font-size: 13px;
+    line-height: 27px;
+
+    color: #757575;
+}
+
+
+.menu{
+    position: relative;
+}
+
+
+.main-menu-item{
+    padding: 0 8px;
+
+    display: flex;
+    justify-content: space-between;
+
+    position: relative;
+}
+
+.main-menu-item:hover, .sub-menu1-item:hover{
+    background-color: #e6e6e6;
+    color: #f05b00;
+}
+
+.sub-menu1{
+    position: absolute;
+    left: 200px;
+    top: 0px;
+
+    display: none;
+}
+
+.sub-menu1-item{
+    padding: 0 8px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-menu2{
+    position: absolute;
+    left: 200px;
+    top: 0px;
+
+    display: none;
+}
+
+.sub-menu2-item {
+    padding: 0 8px;
+}
+
+.sub-menu2-item:hover{
+    color: #f05b00;
+}
+
+.main-menu-item:hover .sub-menu1{
+    display: block;
+}
+
+.main-menu-item:hover .caret-icon{
+    display: block;
+}
+
+.caret-icon{
+    display: none;
+}
+
+.sub-menu1-item:hover .sub-menu2 {
+    display: block;
+}
+.sub-menu2-item:hover .caret-icon{
+    display: block;
+}
+
+

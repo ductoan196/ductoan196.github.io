@@ -97,4 +97,11 @@ body {
     display: block;
 }
 
+body img{
+    width: 127px;
+    height: 40px;
+}
 
+.logo-lazada{
+    padding-bottom: 20px;
+}

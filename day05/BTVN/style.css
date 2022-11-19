@@ -82,18 +82,18 @@ body {
     display: block;
 }
 
-.main-menu-item:hover .caret-icon{
+.main-menu-item:hover .caret-icon1{
     display: block;
 }
 
-.caret-icon{
+.caret-icon1, .caret-icon2{
     display: none;
 }
 
 .sub-menu1-item:hover .sub-menu2 {
     display: block;
 }
-.sub-menu2-item:hover .caret-icon{
+.sub-menu2-item:hover .caret-icon2{
     display: block;
 }
 

@@ -225,3 +225,23 @@ ul.social-media{
 .social-media .youtube{
     margin: 0 16px;
 }
+
+.card .image{
+    overflow: hidden;
+}
+.card img{
+    transition: all 2s;
+}
+    
+.card .content{
+    transition: all 2s;
+    position: relative;
+    top: 500px;
+}
+
+.card:hover .content{
+    top: 0px;
+}
+.card:hover img{
+    transform:scale(1.2);
+}

@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+img{
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Roboto-Regular', sans-serif;
+    width: 1210px;
+    margin: auto;
+    position: relative;
+}
+ul{
+    list-style-type: none;
+}
+
+/* CSS header  */
+
+.header{
+    height: 100px;
+    font-size: 20px;
+    color: rgba(52, 52, 52, 1);
+    border-bottom: 1px solid rgb(219, 219, 219);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .toanoi{
+    font-size: 34.2px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.header .social-logo{
+    font-size: 20px;
+    padding-left: 20px;
+}
+.social-logo i{
+    padding-right: 16px;
+}
+.header .main-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-menu-item{
+    padding-right: 30px;
+}
+.main-menu-item:hover a{
+    color: #ed1e24;
+}
+.main-menu a{
+    text-decoration: none;
+    color: rgba(52, 52, 52, 1);
+}
+
+/* CSS Footer  */
+.footer{
+    padding-top: 40px;
+    display: flex;
+    border-top: 1px solid rgb(219, 219, 219);
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.footer-col1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 100px;
+}
+.footer-col1 img{
+    width: 100px;
+    height: auto;
+    border: 2px solid rgba(52, 52, 52, 1);
+}
+.footer-col1 .social-logo{
+    padding-top: 40px;
+}
+.footer-col1 .certified{
+    font-size: 14.5px;
+    padding-top: 50px;
+}
+
+.footer a,p{
+    text-decoration: none;
+    color: #343434;
+    font-size: 17.1px;
+    line-height: 22.23px;
+}
+
+.footer li, h3, p, input{
+    margin-bottom: 1em;
+}
+
+.footer-col2{
+    padding-right: 100px;
+}
+.footer-col3 button{
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #ed1e24;
+    color: white;
+    border: none;
+    font-size: 17.1px;
+}
+.footer-col3 p{
+    padding: 10px 0px;
+}
+.footer-col3 input{
+    width: 95%;
+    padding: 0.6em;
+}
+
+.footer h3{
+    letter-spacing: 1.5px;
+    font-weight: 600;
+}
+
+/* CSS Body  */
+.body-page{
+    padding: 40px 0;
+}
+
+.body-page .image-intro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 50px;
+
+}
+
+.image-intro img{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    border-radius:175px ;
+    margin-right: 80px;
+}
+.image-intro .content-intro{
+    line-height: 34px;
+    margin-right: 40px;
+}
+
+.content-intro p{
+    font-size: 20px;
+    line-height: 34px;
+}
+.content-intro .button{
+    font-size: 20px;
+    padding: 15px 25px;
+    background-color: #ed1e24;
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+
+.body-content{
+    padding-top: 100px;
+}
+
+.body-content h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+.body-content h3 .bar{
+    border: 10px 300px;
+    background-color: #fcd900;
+}
+
+.body-content .category{
+    display: flex;
+    flex-direction: row;
+}
+
+.category .category-item{
+    margin-right: 60px;
+}
+.category .category-item p{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.category a{
+    text-decoration: none;
+}
+
+
+
+/* CSS tour */
+
+
+/* Style section khóa học */
+.container{
+    width: 1320px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.col{
+    flex-basis: 30%;
+    padding: 2rem 2rem;
+}
+
+
+ /* Style thẻ card  */
+
+ .tour-list a{
+    text-decoration: none;
+ }
+.card{
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px #ababab;
+    /* margin: 15px; */
+}
+
+.image{
+    height: 220px;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    max-width: 100%;
+}
+.content{
+    padding: 20px;
+}
+.content h4{
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+    padding-bottom: 16px;
+}
+
+.content .info{
+    display: flex;
+    justify-content: space-between;
+    color: #757575;
+    font-size: 1.4px;
+    font-weight: 100;
+}
+.content .info p{
+    font-size: 14.4px;
+    font-weight: 100;
+}
+
+.info span{
+    color: #ffd600;
+    margin-left: 4px;
+}

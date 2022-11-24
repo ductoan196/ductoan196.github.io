@@ -9,18 +9,21 @@ img{
 
 body {
     font-family: 'Roboto-Regular', sans-serif;
-    width: 1210px;
     margin: auto;
     position: relative;
 }
 ul{
     list-style-type: none;
 }
+a{
+    text-decoration: none;
+}
 
 /* CSS header  */
 
 .header{
     height: 100px;
+    padding: 0px 60px 0 180px;
     font-size: 20px;
     color: rgba(52, 52, 52, 1);
     border-bottom: 1px solid rgb(219, 219, 219);
@@ -29,12 +32,16 @@ ul{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
 }
 .header .toanoi{
     font-size: 34.2px;
     font-weight: 700;
     display: flex;
     align-items: center;
+}
+.header a{
+    color: rgba(52, 52, 52, 1);
 }
 .header .social-logo{
     font-size: 20px;
@@ -63,11 +70,12 @@ ul{
 
 /* CSS Footer  */
 .footer{
-    padding-top: 40px;
+    padding: 40px 150px 0 150px;
     display: flex;
     border-top: 1px solid rgb(219, 219, 219);
     flex-direction: row;
     justify-content: space-between;
+
 
 }
 .footer-col1{
@@ -104,10 +112,10 @@ ul{
 .footer-col2{
     padding-right: 100px;
 }
-.footer-col3 button{
+.footer-col3 a{
     padding: 10px 20px;
     margin-top: 15px;
-    background-color: #ed1e24;
+    background-color: #0284fe;
     color: white;
     border: none;
     font-size: 17.1px;
@@ -116,7 +124,7 @@ ul{
     padding: 10px 0px;
 }
 .footer-col3 input{
-    width: 95%;
+    width: 75%;
     padding: 0.6em;
 }
 
@@ -127,14 +135,15 @@ ul{
 
 /* CSS Body  */
 .body-page{
-    padding: 40px 0;
+    margin: auto;
+    padding: 50px 150px;
 }
 
 .body-page .image-intro{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 0 50px;
+    margin: 0 100px;
 
 }
 
@@ -153,23 +162,26 @@ ul{
 .content-intro p{
     font-size: 20px;
     line-height: 34px;
+    padding-bottom: 10px;
 }
 .content-intro .button{
     font-size: 20px;
-    padding: 15px 25px;
-    background-color: #ed1e24;
+    padding: 12px 20px;
+    background-color: #0284fe;
     border: none;
     color: white;
     text-decoration: none;
+    border-radius: 6px;
 }
 
 .body-content{
-    padding-top: 100px;
+    padding-top: 30px;
 }
 
 .body-content h3{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
+    text-align: center;
 }
 .body-content h3 .bar{
     border: 10px 300px;
@@ -179,10 +191,11 @@ ul{
 .body-content .category{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .category .category-item{
-    margin-right: 60px;
+    margin: 30px 30px;
 }
 .category .category-item p{
     margin-top: 20px;
@@ -197,16 +210,14 @@ ul{
 
 /* CSS tour */
 
-
-/* Style section khóa học */
 .container{
-    width: 1320px;
     margin: auto;
 }
 .row{
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 20px 50px;
+    justify-content: center;
 }
 .col{
     flex-basis: 30%;
@@ -216,6 +227,23 @@ ul{
 
  /* Style thẻ card  */
 
+ .image-back{
+    height: 430px;
+ }
+ .image-back .text-img{
+    text-align: center;
+    margin-top: -270px;
+    color: white;
+    font-size: 56px;
+    font-weight: 700;
+ }
+
+  .image-back img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
  .tour-list a{
     text-decoration: none;
  }
@@ -223,26 +251,44 @@ ul{
     height: 100%;
     background-color: #fff;
     box-shadow: 0 2px 4px #ababab;
+    border-radius: 8px;
+    
     /* margin: 15px; */
 }
 
 .image{
     height: 220px;
+    overflow: hidden;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 .image img{
     height: 100%;
     width: 100%;
     object-fit: cover;
     max-width: 100%;
+
+    transition: all 0.5s;
 }
 .content{
     padding: 20px;
 }
-.content h4{
-    font-size: 22px;
+.content .level span {
+    color: black;
+    font-size: 14px;
     font-weight: 500;
+    padding-right: 10px;
+}
+.content .level i{
+    color: #0284fe;
+    padding-right: 3px;
+}
+.content h4{
+    font-size: 18px;
+    font-weight: 700;
     color: black;
     padding-bottom: 16px;
+    padding-top: 10px;
 }
 
 .content .info{
@@ -253,11 +299,33 @@ ul{
     font-weight: 100;
 }
 .content .info p{
-    font-size: 14.4px;
+    font-size: 14px;
     font-weight: 100;
 }
 
 .info span{
     color: #ffd600;
     margin-left: 4px;
+}
+
+.card:hover img{
+    transform: scale(1.2);
+}
+
+
+/* CSS button call */
+
+.quick-button{
+    position: fixed;
+    bottom: 80px;
+    left: 30px;
+    color: #ed1e24;
+    font-size: 40px;
+
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.quick-button a{
+    color: #0284fe;
 }

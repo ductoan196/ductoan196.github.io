@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <!-- Link tự viết  -->
     <link rel=" stylesheet" href="./style.css">
@@ -30,11 +32,11 @@
         <div class="logo">
             <div class="main-name">
                 <div class="toanoi">
-                    TONY TRAVEL
+                    <a href="./index.html">TONY TRAVEL</a>
                     <span class="social-logo">
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-youtube"></i>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
                     </span>
                 </div>
             </div>
@@ -49,39 +51,43 @@
             </ul>
         </div>
     </div>
-
+    <div class="image-back">
+        <img src="https://travelup.vn/wp-content/uploads/2021/09/IMG_8277-scaled-e1637581946828.jpg">
+        <!-- <div class="text-img">Tony's Tours</div> -->
+    </div>
     <div class="body-page">
-        <div class="image-intro">
+        <!-- <div class="image-intro">
             <img src="./photo/IMG_20200523_085908.jpg" alt="main-photo-homepage">
             <div class="content-intro">
                 <p>Hi all ! Mình là Tony. Hiện tại mình là Tourguide cho các tour du lịch trên khắp Việt Nam. Đây là nơi
                     mình chia sẻ
                     những thông tin về các tour du lịch và kinh nghiệm của mình nhé! </p>
-                <a href="./sub-menu/tour.html" class="button">Yeah, Let's Go</a>
+                <a href="./sub-menu/tour.html" class="button">Nhận lịch trình!</a>
             </div>
-        </div>
+        </div> -->
+
         <div class="body-content">
-            <h3>CHỌN LOẠI HÌNH DU LỊCH <span class="bar"></span></h3>
+            <h3>CHỌN LOẠI HÌNH <span class="bar"></span></h3>
             <div class="category">
                 <a href="">
                     <div class="trekking category-item">
                         <img
-                            src="https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+                            src="https://viettrekking.vn/wp-content/uploads/2021/10/tour-trekking-nui-nhiu-co-san-700x500.jpg">
                         <p>TREKKING TOURS</p>
                     </div>
                 </a>
                 <a href="">
-                    <div class="beach category-item">
-                        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=800"
-                            alt="guitar">
-                        <p>TẮM BIỂN</p>
+                    <div class="experience category-item">
+                        <img src="https://viettrekking.vn/wp-content/uploads/2022/11/68668906_926021661085619_8505779896155373568_o-700x500.jpg"
+                            alt="experience">
+                        <p>TOUR TRẢI NGHIỆM</p>
                     </div>
                 </a>
                 <a href="">
-                    <div class="street-food category-item">
-                        <img src="https://images.unsplash.com/photo-1485768071412-bded21c2be08?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                    <div class="team-building category-item">
+                        <img src="https://viettrekking.vn/wp-content/uploads/2016/08/tour-shinhan-bank-team-building-2-700x500.jpg"
                             alt="street-food">
-                        <p>STREET FOODS</p>
+                        <p>TEAM BUILDING</p>
                     </div>
                 </a>
             </div>
@@ -93,9 +99,9 @@
         <div class="footer-col1">
             <img src="./photo/T.png" alt="logo-photo">
             <div class="social-logo">
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-youtube"></i>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
             </div>
             <div class="certified">
                 <p>© TONY TRAVEL 2022</p>
@@ -114,9 +120,15 @@
             <p>Đăng Ký Nhận Bài Viết Mới Nhất Thông Qua Email</p>
             <form action="">
                 <input type="email" placeholder="Email Address">
-                <div class="submit"><button type="submit"><b>ĐĂNG KÝ</b></button></div>
+                <div class="button">
+                    <a href=""><b>ĐĂNG KÝ</b></a>
+                </div>
+
             </form>
         </div>
+    </div>
+    <div class="quick-button animate__animated animate__tada">
+        <a href=""><i class="fa-solid fa-phone-volume"></i></a>
     </div>
 </body>
 

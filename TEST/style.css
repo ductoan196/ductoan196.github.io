@@ -43,6 +43,16 @@ a{
 .header a{
     color: rgba(52, 52, 52, 1);
 }
+.tag-line{
+    height: 2px;
+    background-color: #0284fe;
+    transition: all 0.5s;
+    width: 0;
+}
+.main-menu-item:hover .tag-line{
+    width: 100%;
+}
+
 .header .social-logo{
     font-size: 20px;
     padding-left: 20px;
@@ -59,14 +69,16 @@ a{
 
 .main-menu-item{
     padding-right: 30px;
+    
 }
-.main-menu-item:hover a{
+/* .main-menu-item:hover a{
     color: #ed1e24;
-}
+} */
 .main-menu a{
     text-decoration: none;
     color: rgba(52, 52, 52, 1);
 }
+
 
 /* CSS Footer  */
 .footer{

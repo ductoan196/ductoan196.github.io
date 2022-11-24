@@ -120,6 +120,10 @@ a{
     border: none;
     font-size: 17.1px;
 }
+
+.footer-col3 .button{
+    margin-top: 20px;
+}
 .footer-col3 p{
     padding: 10px 0px;
 }
@@ -197,9 +201,19 @@ a{
 .category .category-item{
     margin: 30px 30px;
 }
+.image-category{
+    height: 200px;
+    overflow: hidden;
+}
+.category-item:hover img{
+    transition: all 0.5s;
+}
 .category .category-item p{
     margin-top: 20px;
     text-align: center;
+}
+.category-item:hover img{
+    transform: scale(1.2);
 }
 
 .category a{
